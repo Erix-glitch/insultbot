@@ -175,8 +175,6 @@ async def help(ctx):
     embed.add_field(name="!joke", value="Sends a random joke", inline=False)
     embed.add_field(name="!source", value="Sends the source of the bot", inline=False)
     await ctx.send(embed=embed)
-bot.run('ODExMzE1NDE5MTgwNTY0NTEw.YCwaXQ.4gNkw_dIhseIauRK7WnUwlpJOWs')", color=0x00ff00)
-    await ctx.send(embed=embed)
 
 # Add a help command
 @bot.command()
